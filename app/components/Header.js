@@ -13,7 +13,7 @@ export default function Header() {
         <div className={styles.logoContainer}>
           <Link href="/" className={styles.logoLink}>
             <Image
-              src={'/site_logo.JPG'}
+              src={`${config.basePath}/site_logo.JPG`}
               priority={true}
               alt="DYCAELS Logo"
               className={styles.logoImage}
