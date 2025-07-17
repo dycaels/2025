@@ -1,0 +1,347 @@
+/* Header Styles */
+.header {
+  background-color: var(--white);
+  border-bottom: 1px solid var(--gray-200);
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* garante que fica acima do conteúdo */
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.5rem;
+  max-width: 100%;
+  justify-content: center; /* Centraliza os elementos horizontalmente */
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 0.5rem;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  background-color: var(--amber-600);
+  border-radius: 50%;
+  margin-right: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  font-weight: bold;
+}
+
+.siteName {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--gray-700);
+}
+
+.nav {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.25rem;
+  overflow-x: visible;
+  justify-content: center; /* Centraliza os links */
+  margin-left: -2rem; /* Move os links um pouco para a esquerda */
+}
+
+.navLink {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--gray-700);
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
+
+.navLink:hover {
+  color: var(--amber-600);
+}
+
+.logoLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logoImage {
+  width: 60px;   /* mesmo tamanho do círculo antigo */
+  height: 60px;
+  object-fit: contain; /* mantém proporção da imagem */
+  margin-right: 0.75rem;
+  border-radius: 50%; /* deixa o logo redondo (se quiser) */
+}
+
+/* Hero Section */
+.heroSection {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #fef9c3 0%, #fde68a 50%, #fcd34d 100%);
+  overflow: hidden;
+}
+
+.heroBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  z-index: 0;
+  animation: zoomIn 20s ease-in-out infinite alternate;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: #1f2937;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #065f46; /* emerald-800 */
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  animation: fadeInDown 1.2s ease-out;
+}
+
+.registrationBox {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  padding: 1.5rem;
+  margin: 0 auto 1rem;
+  max-width: 34rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.registrationBox:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.onlineText {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #b91c1c; /* red-700 */
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+}
+
+.registrationText {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #1e40af; /* blue-800 */
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+
+.dateText {
+  font-size: 1.1rem;
+  color: #374151; /* gray-700 */
+}
+
+.conferenceBox {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(6px);
+  border-left: 4px solid #059669; /* emerald-600 */
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 36rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.conferenceText {
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-style: italic;
+  color: #065f46; /* emerald-800 */
+}
+
+/* Animations */
+@keyframes zoomIn {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* Organization Section */
+.organizationSection {
+  padding: 0 1rem 0 1rem;
+}
+
+.organizationImgContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.organizationImg{
+  height: 150px;
+  width: auto;
+}
+
+.organizationImg:last-child{
+  height: 70px;
+}
+
+.organizationBox {
+  background-color: var(--gray-100);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  max-width: 64rem;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+.organizationText {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--gray-700);
+  text-align: justify;
+}
+
+/* Plenary Section */
+.plenarySection {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.plenaryBox {
+  background-color: var(--gray-800);
+  color: var(--amber-400);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.plenaryTitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.plenarySpeaker {
+  font-size: 1rem;
+  color: var(--amber-300);
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+  .headerContainer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+  }
+  
+  .logoContainer {
+    margin-bottom: 0;
+  }
+  
+  .nav {
+    margin-left: 1.5rem;
+    gap: 1.25rem;
+  }
+  
+  .navLink {
+    font-size: 0.875rem;
+  }
+  
+  .heroTitle {
+    font-size: 3.75rem;
+  }
+}
+
+
+/* Mobile menu button (hamburguer) */
+.menuButton {
+  display: none; /* escondido por padrão */
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: var(--gray-700);
+  cursor: pointer;
+}
+
+/* Mobile dropdown menu */
+.mobileMenu {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  position: absolute;
+  top: 60px; /* abaixo do header */
+  left: 0;
+  right: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 16px;
+  z-index: 1000;
+}
+
+.mobileNavLink {
+  padding: 1rem;
+  border-bottom: 1px solid var(--gray-200);
+  text-decoration: none;
+  color: var(--gray-700);
+  text-align: center;
+}
+
+.mobileNavLink:hover {
+  background-color: var(--gray-100);
+}
+
+/* Responsividade: esconde navbar e mostra botão no celular */
+@media (max-width: 768px) {
+  .nav {
+    display: none; /* esconde navbar normal */
+  }
+
+  .menuButton {
+    display: block; /* mostra o botão de menu */
+  }
+
+  .headerContainer {
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .heroSection {
+    height: 80vh; 
+    background-position: top;
+    padding-top: 1rem; 
+  }
+}

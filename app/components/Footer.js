@@ -1,0 +1,44 @@
+import styles from '@/app/styles/contentSection.module.css';
+import Image from 'next/image';
+
+export default function Header() {
+  return (
+    <footer className={styles.footer}>
+                <div className={styles.footerDivider}></div>
+
+                <div className={styles.footerContent}>
+                    <p className={styles.footerText}>
+                    <b>Organization:</b> G. G. Lenzi, A. M. Tusset, M. E. K. Fuziki (UTFPR-Ponta Grossa), 
+                    L.M.S. Colpini (Federal University of Paraná), O.A.A dos Santos (UEM), 
+                    S. Specchia (Politecnico di Torino), J. M. Balthazar (UNESP).
+                    </p>
+
+                    <div className={styles.footerLogos}>
+                    <Image
+                        src={'/cyted_logo2.png'}
+                        alt="CYTED Logo"
+                        className={styles.footerLogo}
+                        width={450}
+                        height={450}
+                    />
+                    <Image
+                        src={'/UTFPR_logo.png'}
+                        alt="UTFPR Logo"
+                        className={styles.footerLogoSmall}
+                        width={877}
+                        height={326}
+                    />
+                    </div>
+
+                    <div className={styles.footerContact}>
+                    <p>📍 <b>Location:</b> UTFPR - Federal Technological University of Paraná, Ponta Grossa</p>
+                    <p>✉️ <b>Contact:</b> <a href="mailto:xxx@gmail.com">xxx@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <div className={styles.footerBottom}>
+                    <p>&copy; 2025 Dycaels. All rights reserved.</p>
+                </div>
+            </footer>
+  );
+}
