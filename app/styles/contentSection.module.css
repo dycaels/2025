@@ -13,13 +13,22 @@
   color: #252525;
   border-radius: 0.5rem;
   padding: 1.5rem;
-  max-width: 25rem;
+  width: fit-content;
   margin: 0 auto;
   text-align: left;
 }
 
 .contentBox {
   background-color: rgba(0, 0, 0, 0.1);
+  color: #252525;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  max-width: 48rem;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.programBox {
   color: #252525;
   border-radius: 0.5rem;
   padding: 1.5rem;
@@ -68,25 +77,13 @@
   padding-left: 10px;
 }
 
-.table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 1rem;
-}
-
-.table th,
-.table td {
-  border: 1px solid var(--amber-700);
-  padding: 0.5rem;
+.tableBox {
+  color: #252525;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  max-width: 48rem;
+  margin: 0 auto;
   text-align: left;
-}
-
-.table th {
-  background-color: var(--gray-700);
-}
-
-.table tr:nth-child(even) {
-  background-color: var(--gray-750);
 }
 
 /* Speaker Styles */
@@ -199,4 +196,80 @@
   padding-top: 1rem;
   font-size: 0.8rem;
   color: #9ca3af; /* gray-400 */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.05); /* transparente */
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.table th {
+  background-color: rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+  color: #444444; /* amber-400 */
+}
+
+.table tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.05); /* linha alternada */
+}
+
+.table td {
+  color: #424242; /* gray-100 para texto */
+}
+
+.programDay {
+  margin-top: 2rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.programDay h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1f2937; /* gray-800 */
+  margin-bottom: 0.5rem;
+}
+
+.sessionType {
+  font-style: italic;
+  color: #9ca3af; /* gray-400 */
+  margin-bottom: 1rem;
+}
+
+.programItem {
+  border-left: 4px solid #fbbf24; /* amber-400 */
+  padding-left: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.programTime {
+  font-weight: 600;
+  color: #f59e0b; /* amber-500 */
+  margin-bottom: 0.2rem;
+}
+
+.programTitle {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #374151; /* gray-700 */
+  margin-bottom: 0.2rem;
+}
+
+.programSpeaker {
+  font-size: 0.95rem;
+  color: #6b7280; /* gray-500 */
 }

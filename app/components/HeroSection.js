@@ -4,7 +4,7 @@ export default function HeroSection() {
   return (
     <section className={styles.heroSection}>
       <div className={styles.heroBackground} style={{
-        backgroundImage: `url('utfpr-pg.jpg')`,
+        backgroundImage: `url('/2025/utfpr-pg.jpg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: "100vh",
@@ -16,7 +16,7 @@ export default function HeroSection() {
         <div className={styles.registrationBox}>
           <p className={styles.onlineText}>🌐 ONLINE & IN-PERSON</p>
           <p className={styles.registrationText}>🚀 REGISTER NOW</p>
-          <p className={styles.dateText}>📍 Ponta Grossa, Brazil · July 30 – August 1, 2025</p>
+          <p className={styles.dateText}>📍 Ponta Grossa, Brazil · October 1 to 3, 2025</p>
         </div>
 
         <div className={styles.conferenceBox}>

@@ -8,9 +8,9 @@ export default function Header() {
 
                 <div className={styles.footerContent}>
                     <p className={styles.footerText}>
-                    <b>Organization:</b> G. G. Lenzi, A. M. Tusset, M. E. K. Fuziki (UTFPR-Ponta Grossa), 
+                    <b>Organization:</b> G. G. Lenzi, A. M. Tusset, M. E. K. Fuziki, A. Coqueiro (UTFPR - Ponta Grossa), 
                     L.M.S. Colpini (Federal University of Paraná), O.A.A dos Santos (UEM), 
-                    S. Specchia (Politecnico di Torino), J. M. Balthazar (UNESP).
+                    S. Specchia (Politecnico di Torino), J. M. Balthazar (UNESP - Faculdade de Engenharia de Bauru).
                     </p>
 
                     <div className={styles.footerLogos}>
