@@ -15,14 +15,14 @@ export default function Header() {
 
                     <div className={styles.footerLogos}>
                     <Image
-                        src={'/2026/cyted_logo2.png'}
+                        src={'/2025/cyted_logo2.png'}
                         alt="CYTED Logo"
                         className={styles.footerLogo}
                         width={450}
                         height={450}
                     />
                     <Image
-                        src={'/2026/UTFPR_logo.png'}
+                        src={'/2025/UTFPR_logo.png'}
                         alt="UTFPR Logo"
                         className={styles.footerLogoSmall}
                         width={877}
