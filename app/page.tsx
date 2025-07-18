@@ -12,11 +12,11 @@ export default function Home() {
 
           <div className={styles.smallContentBox}>
               <p className={styles.smallContentText}>
-              <b>Registration:</b> &nbsp;&nbsp;September 2 - 30<sup>th</sup>, 2025
+              <b>Registration:</b>&nbsp;September 2 - 30<sup>th</sup>, 2025
               </p>
               
               <p className={styles.smallContentText}>
-              <b>Abstract Submission:</b> &nbsp;&nbsp;Ends on September 15<sup>th</sup>, 2025
+              <b>Abstract Submission:</b>&nbsp;Ends on September 15<sup>th</sup>, 2025
               </p>
           </div>
           </div>
