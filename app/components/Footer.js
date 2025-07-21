@@ -32,7 +32,7 @@ export default function Header() {
 
                     <div className={styles.footerContact}>
                     <p>📍 <b>Location:</b> UTFPR - Federal Technological University of Paraná, Ponta Grossa</p>
-                    <p>✉️ <b>Contact:</b> <a href="mailto:xxx@gmail.com">xxx@gmail.com</a></p>
+                    <p>✉️ <b>Contact:</b> <a href="mailto:dycaels25@gmail.com">dycaels25@gmail.com</a></p>
                     </div>
                 </div>
 
