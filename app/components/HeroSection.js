@@ -15,7 +15,14 @@ export default function HeroSection() {
 
         <div className={styles.registrationBox}>
           <p className={styles.onlineText}>🌐 ONLINE & IN-PERSON</p>
-          <p className={styles.registrationText}>🚀 REGISTER NOW</p>
+          <a 
+            href="https://forms.gle/qwAEyBGDfNNqDC1h9" 
+            className={styles.registrationText} 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            🚀 REGISTER NOW
+          </a>
           <p className={styles.dateText}>📍 Ponta Grossa, Brazil · October 1 to 3, 2025</p>
         </div>
 
