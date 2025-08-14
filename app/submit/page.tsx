@@ -22,7 +22,7 @@ export default function Submit() {
 
           <a
             href={`${process.env.PUBLIC_URL}/template_abstrace.docx`}
-            download="template_abstrace.docx"
+            download="/2025/template_abstrace.docx"
           >
             <u>Download here</u>
           </a>
