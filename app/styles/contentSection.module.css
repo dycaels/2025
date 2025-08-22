@@ -28,6 +28,23 @@
   text-align: left;
 }
 
+.contentBoxV2 {
+  background-color: rgba(0, 0, 0, 0.03);
+  color: #252525;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  max-width: 48rem;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contentBoxV2 h4{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 .programBox {
   color: #252525;
   border-radius: 0.5rem;
@@ -43,6 +60,15 @@
   margin-bottom: 1rem;
   color: #1f1f1f;
   text-align: center;
+}
+
+.contentTitleV2 {
+  margin-bottom: 1rem;
+  color: #1f1f1f;
+  text-align: center;
+  text-decoration: underline solid gray;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 3px;
 }
 
 .contentText {
@@ -227,6 +253,17 @@
 
 .table td {
   color: #424242; /* gray-100 para texto */
+}
+
+.table caption {
+  caption-side: top;        /* garante que fique no topo */
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #1f2937;           /* gray-800 */
+  padding: 0.75rem;
+  background-color: rgba(0, 0, 0, 0.08); 
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
 }
 
 .programDay {
