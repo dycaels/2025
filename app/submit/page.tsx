@@ -8,7 +8,7 @@ export default function Submit() {
 
         <div className={styles.contentBox}>
           <p className={styles.contentText}>
-            Submit your abstract to dycaels25@gmail.com. We appreciate your contribution.
+            Submit your abstracts through the registration form. We appreciate your contribution.
           </p>
 
           <br/>
