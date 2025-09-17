@@ -28,6 +28,13 @@ export default function Header() {
                         width={877}
                         height={326}
                     />
+                    <Image
+                        src={'/2025/abcm_logo.png'}
+                        alt="ABCM Logo"
+                        className={styles.footerLogo}
+                        width={450}
+                        height={450}
+                    />
                     </div>
 
                     <div className={styles.footerContact}>

@@ -15,8 +15,8 @@ export default function KeynoteSpeakers() {
               <p className={styles.sessionType}>OPENING SESSION</p>
               <div className={styles.programItem}>
                 <p className={styles.programTime}>09:00 - 09:40</p>
-                <p className={styles.programTitle}><b>HYDROGEN AND FUEL CELLS FOR ENERGY TRANSITION</b></p>
-                <p className={styles.programSpeaker}>Stefania Specchia (Politécnico di Torino)</p>
+                <p className={styles.programTitle}><b>SUSTAINABLE ENERGY RESOURCES: THE POTENTIAL OF ENERGY HARVESTING IN THE ENVIRONMENT</b></p>
+                <p className={styles.programSpeaker}>Clivaldo de Oliveira (UFGD – Dourados/MS)</p>
               </div>
             </div>
 
