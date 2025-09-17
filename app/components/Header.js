@@ -27,6 +27,7 @@ export default function Header() {
         {/* Normal navbar for desktop */}
         <nav className={styles.nav}>
           <Link href="/" className={styles.navLink}>Home</Link>
+          <Link href="/about" className={styles.navLink}>About Dycaels</Link>
           <Link href="/goals" className={styles.navLink}>Goals</Link>
           <Link href="/topics" className={styles.navLink}>Topics</Link>
           <Link href="/keynote-speakers" className={styles.navLink}>Keynote Speakers</Link>

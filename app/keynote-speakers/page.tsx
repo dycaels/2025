@@ -54,6 +54,12 @@ export default function KeynoteSpeakers() {
             {/* Friday */}
             <div className={styles.programDay}>
               <h4>Friday, October 3<sup>rd</sup></h4>
+              <div className={styles.programItem}>
+                <p className={styles.programTime}>14:00 - 15:30</p>
+                <p className={styles.programTitle}><b>MACHINE LEARNING ALGORITHMS FOR PREDICTING STRUCTURAL BEHAVIOUR UNDER COMPLEX DYNAMIC LOADING</b></p>
+                <p className={styles.programSpeaker}>Gustavo Cristante Izar (Hilti, Austria)</p>
+                <p className={styles.sessionType}>Mini course</p>
+              </div>
               <p className={styles.sessionType}>Oral and Poster Communications</p>
             </div>
           </div>
