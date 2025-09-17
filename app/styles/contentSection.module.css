@@ -175,37 +175,53 @@
 }
 
 .footerText {
-  font-size: 0.95rem;
+  font-size: 16px;
   line-height: 1.6;
   margin-bottom: 1.5rem;
   color: #d1d5db; /* gray-300 */
 }
 
-.footerLogos {
+
+.footerInstitutions {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
   margin-bottom: 1.5rem;
 }
 
+.institutionItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: rgba(255,255,255,0.04);
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  min-width: 280px;
+}
+
+.institutionText {
+  font-size: 16px;
+  color: #f3f4f6;
+  font-weight: 500;
+  text-align: left;
+}
+
+
 .footerLogo {
-  height: 65px;
-  width: auto;
   filter: invert(1) brightness(2); /* inverte preto → branco e clareia */
 }
 
+
 .footerLogoSmall {
-  height: 40px;
   opacity: 0.85;
-  width: auto;
 }
 
 .footerContact {
-  font-size: 0.9rem;
+  font-size: 16px;
   color: #d1d5db; /* gray-300 */
   margin-top: 1rem;
+  margin-bottom: 30px;
 }
 
 .footerContact p {
