@@ -8,6 +8,12 @@
   font-weight: 700;
   margin-bottom: 2rem;
 }
+
+h3.sectionMidTitle{
+  margin-top: 50px;
+  text-align: center;
+}
+
 .smallContentBox {
   background-color: rgba(0, 0, 0, 0.1);
   color: #252525;
@@ -43,6 +49,11 @@
 .contentBoxV2 h4{
   text-align: center;
   margin-bottom: 1rem;
+}
+
+.contentBoxV2 h3{
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .contentBoxV3 {
