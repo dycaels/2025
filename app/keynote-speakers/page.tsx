@@ -55,6 +55,13 @@ export default function KeynoteSpeakers() {
             <div className={styles.programDay}>
               <h4>Friday, October 3<sup>rd</sup></h4>
               <div className={styles.programItem}>
+                <p className={styles.programTime}>09:40 - 10:40</p>
+                <p className={styles.programTitle}><b>EFFECTS OF THE ZONAL HARMONICS J2, J3 AND J4 ON OPTIMAL LOW-THRUST TRAJECTORIES</b></p>
+                <p className={styles.programSpeaker}>Francisco das Chagas Carvalho</p>
+                <p className={styles.programSpeaker}>Instituto Nacional de Pesquisas Espaciais - Coordenação de Rastreio, Controle e Recepção de Satélites (CORCR)</p>
+              </div>
+
+              <div className={styles.programItem}>
                 <p className={styles.programTime}>14:00 - 15:30</p>
                 <p className={styles.programTitle}><b>MACHINE LEARNING ALGORITHMS FOR PREDICTING STRUCTURAL BEHAVIOUR UNDER COMPLEX DYNAMIC LOADING</b></p>
                 <p className={styles.programSpeaker}>Gustavo Cristante Izar (Hilti, Liechtenstein)</p>
