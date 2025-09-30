@@ -28,12 +28,12 @@ export default function HeroSection() {
             <p className={styles.virtualAccessTitle}>💻 <b>Virtual Access (Google Meet)</b></p>
             <p className={styles.virtualAccessText}>All online participants can join using the link below:</p>
             <a 
-              href="#" 
+              href="https://meet.google.com/rxe-bfhh-ofn" 
               className={styles.meetLink}
               target="_blank" 
               rel="noopener noreferrer"
             >
-              � Join DYCAELS 2025 on Google Meet
+              👉 Join DYCAELS 2025 on Google Meet
             </a>
             <p className={styles.virtualAccessNote}>(Link will be active 15 minutes before each session)</p>
           </div>

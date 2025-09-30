@@ -1,3 +1,60 @@
+/* HeroSection registration closed styles */
+.closedText {
+  color: #e11d48;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.thankYouText {
+  color: #16a34a;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.eventDetails {
+  margin-bottom: 1.2rem;
+}
+
+.virtualAccessBox {
+  background: rgba(34,197,94,0.08);
+  border-left: 4px solid #22c55e;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.virtualAccessTitle {
+  font-weight: bold;
+  color: #2563eb;
+  margin-bottom: 0.3rem;
+}
+
+.virtualAccessText {
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.meetLink {
+  display: inline-block;
+  background: #2563eb;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  transition: background 0.2s;
+}
+.meetLink:hover {
+  background: #1d4ed8;
+}
+
+.virtualAccessNote {
+  color: #64748b;
+  font-size: 0.95rem;
+  margin-top: 0.2rem;
+}
 .contentSection {
   padding: 3rem 1rem;
   text-align: center;
