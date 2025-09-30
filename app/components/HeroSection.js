@@ -35,7 +35,7 @@ export default function HeroSection() {
             >
               👉 Join DYCAELS 2025 on Google Meet
             </a>
-            <p className={styles.virtualAccessNote}>(Link will be active 15 minutes before each session)</p>
+            <p className={styles.virtualAccessNote}>(Link will be active 10 minutes before each session)</p>
           </div>
         </div>
 
