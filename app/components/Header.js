@@ -16,6 +16,7 @@ export default function Header() {
     { href: '/topics', label: 'Topics' },
     { href: '/keynote-speakers', label: 'Keynote Speakers' },
     { href: '/program', label: 'Program' },
+    { href: '/posters', label: 'Posters' },
     { href: '/special-issues', label: 'Special Issues' },
     { href: '/submit', label: 'Submit' },
   ];

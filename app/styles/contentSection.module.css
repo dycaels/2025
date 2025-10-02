@@ -344,11 +344,35 @@ h3.sectionMidTitle{
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+.posterItem {
+  margin-top: 2rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 0.5rem;
+  padding: 1.2rem 3rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 1100px;
+}
+
+.poster{
+    max-width: 1100px;
+}
+
+.posterContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .programDay h4 {
   font-size: 1.2rem;
   font-weight: 700;
   color: #1f2937; /* gray-800 */
   margin-bottom: 0.5rem;
+  
 }
 
 .sessionType {
@@ -363,6 +387,7 @@ h3.sectionMidTitle{
   margin-bottom: 1rem;
 }
 
+
 .programTime {
   font-weight: 600;
   color: #f59e0b; /* amber-500 */
@@ -376,7 +401,31 @@ h3.sectionMidTitle{
   margin-bottom: 0.2rem;
 }
 
+.posterTitle {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #374151; /* gray-700 */
+  margin-bottom: 0.5rem;
+}
+
 .programSpeaker {
   font-size: 0.95rem;
   color: #6b7280; /* gray-500 */
+}
+
+.posterSpeaker {
+  font-size: 1rem;
+  color: #6b7280; /* gray-500 */
+}
+
+.embedContainer {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.embedContainer iframe {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
