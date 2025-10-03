@@ -110,7 +110,7 @@ export default function Posters() {
                 <b>Circular Economy and Decarbonization: Integrated analysis of global, national and regulatory frameworks with an emphasis on the agricultural sector</b>
               </p>
               <p className={styles.posterSpeaker}>
-                <b>Presenting Author: </b>Letícia Barbosa Fidanza (UEM)
+                <b>Presenting Author: </b>Letícia Barbosa Fidanza (UFPR)
               </p>
               <p className={styles.posterSpeaker}>
                 <b>Authors: </b> L. B. Fidanza, A. M. F. Embden, G. A. L. Canchumani, L. M. S. Colpini
