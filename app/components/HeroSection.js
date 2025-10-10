@@ -15,29 +15,27 @@ export default function HeroSection() {
 
         <div className={styles.registrationBox}>
           <p className={styles.closedText}>
-            🛑 <b>Registration is now closed.</b>
+            ✅ <b>DYCAELS 2025 has successfully concluded!</b>
           </p>
           <p className={styles.thankYouText}>
-            Thank you for your interest in DYCAELS 2025! We’re excited to welcome all registered participants.
+            Thank you to all participants, presenters, and organizers who made this event a success.
           </p>
-          <div className={styles.eventDetails}>
-            <p className={styles.dateText}>📅 <b>Event Dates:</b> October 1–3, 2025</p>
-            <p className={styles.dateText}>📍 <b>Location:</b> Ponta Grossa, Brazil & Online</p>
-          </div>
           <div className={styles.virtualAccessBox}>
-            <p className={styles.virtualAccessTitle}>💻 <b>Virtual Access (Google Meet)</b></p>
-            <p className={styles.virtualAccessText}>All online participants can join using the link below:</p>
+            <p className={styles.virtualAccessTitle}>📘 <b>Proceedings and Accepted Papers</b></p>
+            <p className={styles.virtualAccessText}>
+              The compiled file with all accepted works is now available for download below:
+            </p>
             <a 
-              href="https://meet.google.com/rxe-bfhh-ofn" 
+              href="/2025/Dycaels_Abstracts.pdf" 
               className={styles.meetLink}
               target="_blank" 
               rel="noopener noreferrer"
             >
-              👉 Join DYCAELS 2025 on Google Meet
+              📄 Download DYCAELS 2025 Proceedings
             </a>
-            <p className={styles.virtualAccessNote}>(Link will be active 10 minutes before each session)</p>
           </div>
         </div>
+
 
         <div className={styles.conferenceBox}>
           <p className={styles.conferenceText}>
