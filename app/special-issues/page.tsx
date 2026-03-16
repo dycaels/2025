@@ -6,12 +6,6 @@ export default function SpecialIssues() {
       <div className="container">
         <h2 className={styles.sectionTitle}>SPECIAL ISSUES</h2>
 
-        <div className={styles.contentBox}>
-          <h3 className={styles.contentTitle}>
-          </h3>
-        </div>
-      </div>
-
       <div className="container">
           <div className={styles.contentBoxV2}>
             <h4>SUSTAINABILITY AND ENERGY RESOURCES IN ENGINEERING APPLICATIONS</h4>
