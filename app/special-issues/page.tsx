@@ -15,7 +15,7 @@ export default function SpecialIssues() {
 
       <div className="container">
           <div className={styles.contentBoxV2}>
-            <h4>testeSUSTAINABILITY AND ENERGY RESOURCES IN ENGINEERING APPLICATIONS</h4>
+            <h4>SUSTAINABILITY AND ENERGY RESOURCES IN ENGINEERING APPLICATIONS</h4>
             <p className={styles.contentText}>
               This book will provide a comprehensive overview of sustainable energy systems, combining theoretical
               foundations with applied perspectives. It will explore the fundamentals of energy production, with an
