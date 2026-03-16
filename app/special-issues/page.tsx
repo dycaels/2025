@@ -8,7 +8,6 @@ export default function SpecialIssues() {
 
         <div className={styles.contentBox}>
           <h3 className={styles.contentTitle}>
-            Special issues to be published in  Springer (to be confirmed).
           </h3>
         </div>
       </div>
