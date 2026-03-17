@@ -26,7 +26,7 @@ export default function SpecialIssues() {
             <strong>The provisional schedule for the article is:</strong>
           </p>
 
-          <ul className={styles.contentText}>
+          <ul className={styles.list}>
             <li>
               Submission deadline: April 30, 2026 (*Before submitting the manuscript, please wait for confirmation from the organizing committee)
             </li>
