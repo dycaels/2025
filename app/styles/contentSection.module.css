@@ -431,3 +431,14 @@ h3.sectionMidTitle{
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
   max-width: 90%;
 }
+
+.list {
+  padding-left: 20px;
+  margin-left: 0;
+  list-style-position: outside;
+}
+
+.list li {
+  margin-bottom: 8px;
+  text-align: left;
+}
